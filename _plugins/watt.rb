@@ -18,7 +18,7 @@ module Rouge
         rule %r/\b(int|string|bool|float)\b/, Keyword::Type
         rule %r/[0-9]+(\.[0-9]+)?/, Num
         rule %r/(==|!=|&&|\|\||\+=|-=|\*=|\/=|<>|[+\-*\/=%!<>&|])/, Operator
-        rule %r/[:.,;()\[\]{}]/, Punctuation
+        rule %r/[:.,;()\[\]{}]/, Text
         rule %r/[a-zA-Z_][a-zA-Z0-9_]*/, Name
         rule %r/\s+/, Text
       end
