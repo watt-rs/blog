@@ -16,7 +16,7 @@ timezone: Asia/Tashkent
 
 title: "Watt" # the main title
 
-tagline: "Friendly programming language" # it will display as the subtitle
+tagline: "💡 Friendly programming language" # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   "💡 Watt is experimental friendly, lightweight, robust-typed programming language written in Rust for the JavaScript platform."
