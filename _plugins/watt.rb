@@ -14,7 +14,7 @@ module Rouge
         rule %r(//.*$), Comment::Single
         rule %r(/[*].*?[*]/), Comment::Multiline, :mcomment
         rule %r/(".*?")/, Str
-        rule %r/\b(fn|let|if|else|elif|match|boil|panic|todo|type|as|enum)\b/, Keyword
+        rule %r/\b(fn|let|if|else|elif|match|boil|panic|todo|type|as|enum|use|const|extern)\b/, Keyword
         rule %r/\b(int|string|bool|float)\b/, Keyword::Type
         rule %r/[0-9]+(\.[0-9]+)?/, Num
         rule %r/(==|!=|&&|\|\||\+=|-=|\*=|\/=|<>|[+\-*\/=%!<>&|])/, Operator
