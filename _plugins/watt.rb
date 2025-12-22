@@ -67,7 +67,7 @@ module Rouge
       # ===== MULTILINE COMMENT =====
       state :mcomment do
         rule %r([^*]+), Comment::Multiline
-        rule %r(\*/), Comment::Multiline, :pop
+        rule %r(\*/), Comment::Multiline, :pop!
         rule %r(\*), Comment::Multiline
       end
     end
